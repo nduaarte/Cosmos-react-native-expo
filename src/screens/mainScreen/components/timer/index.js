@@ -87,6 +87,11 @@ export default function Timer() {
           <Text style={styles.textButton}>Intervalo Longo</Text>
         </TouchableOpacity>
       </View>
+      
+      <View style={styles.concludedContainer}>
+        <Text style={styles.concludedText}>Pomodoros Concluídos:</Text>
+        <Text style={styles.concludedText}>8</Text>
+      </View>
     </View>
   );
 }
